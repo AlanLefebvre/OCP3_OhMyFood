@@ -1,0 +1,92 @@
+.loading_page {	
+	position:fixed;
+	top:0; right:0; left:0; bottom:0;
+	background:$color_button_heart;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	& span {
+		margin-top: 50px;
+		padding:0;
+		display:inline-block;
+		font-size:200%;
+		animation:rotation_spinner $loading_duration infinite;
+		& fa-spinner {
+			margin:0;
+		}
+	}
+	animation: loading $loading_duration;
+	animation-fill-mode:forwards;
+}
+
+/* Animations */
+@keyframes loading
+{
+	0%
+	{
+		opacity:1;
+		z-index:10;
+		transform:scale($loading_scale_start);
+	}
+	50%
+	{
+		opacity:.91;
+	}
+	95%
+	{
+		opacity:.85;
+	}
+	99%
+	{
+		opacity:.3;
+	}
+	100%
+	{
+		opacity:0;
+		z-index:-3;
+		display:none;
+		visibility:hidden;
+		transform:scale($loading_scale_end);
+	}
+}
+
+@keyframes rotation_spinner
+{
+	0%
+	{
+		opacity:1;
+		transform:rotate(0turn);
+	}
+	50%
+	{
+		transform:rotate(3turn);
+	}
+	80%
+	{
+		transform:rotate(3.8turn);
+	}
+	100%
+	{
+		opacity:.3;
+		transform:rotate(4turn);
+	}
+}
+
+@keyframes progressive_display
+{
+	0%
+	{
+		opacity:0;
+		transform:translateY(50%);
+	}
+	50%
+	{
+		opacity:1;
+	}
+	100%
+	{
+		opacity:1;
+		transform:translateY(0%);
+	}
+}

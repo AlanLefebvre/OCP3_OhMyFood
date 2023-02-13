@@ -1,0 +1,204 @@
+/*Volet des menus*/
+.page__center {
+	background-color: $color_description;
+	& .banner {
+		height: 254px;
+	}
+	& .restaurant__menu__1 {
+		background: url('./../assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg') no-repeat center/150%;
+	}
+	& .restaurant__menu__2 {
+		background: url('./../assets/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg') no-repeat center/150%;
+	}
+	& .restaurant__menu__3 {
+		background: url('./../assets/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg') no-repeat center/150%;
+	}
+	& .restaurant__menu__4 {
+		background: url('./../assets/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg') no-repeat center/150%;
+	}
+	& .menu {
+		@include automatic_container();
+		border-radius: 35px;
+		position:relative;
+		top:-35px;
+		overflow: hidden;
+		background-color: $color_description;
+		@include menus_display;
+		@include computer {
+			display:flex;
+			justify-content:space-between;
+			width:auto;
+			height:auto;
+			align-content:space-between;
+		}
+		&__header {
+			width:100%;
+			height:102px;
+			display:flex;
+			justify-content: space-between;
+			align-items:center;
+			@include computer {
+				display:flex;
+				justify-content:space-between;
+				width:90%;
+				left:5%;
+				position:absolute;
+				top:0;
+			}
+			&__title {
+				@include title_police();
+			}
+			& span {
+				width:70px;
+				height:100%;
+				@include flex_horizontal_center();
+				position:relative;
+				& .far {
+					position: relative;
+					font-size:1.8em;
+				}
+				@include flex_horizontal_center();
+				& .fa-heart {
+					font-size:1.8em;
+					position:absolute;
+					display:inline-block;
+				}
+				& .fas {
+					@include heart_fill;
+				}
+				& .far {
+					z-index:1;
+					background-color: $color_description;
+					opacity:1;
+					transition:opacity 250ms;
+					&:#{nth($blocks_states,2)} {
+						opacity:0;
+					}
+				}
+			}
+		}
+		
+		$number:1;
+		@while $number<=3 {
+			&__#{nth($type_menus,$number)} {
+				@include computer {
+					width:30%;
+					margin-bottom:20px;
+					margin-top:10px;
+				}
+				&__title {
+					display:flex;
+					flex-direction:column;
+					text-transform: uppercase;
+					font-size:1em;
+					&__decoration {
+						width: 40px;
+						height:2px;
+						background-color:map-get($id_graph_colors, tertiary);
+					}
+				}
+				& ul {
+					padding-left:0px;
+				}
+				&__meal {
+					list-style-type:none;
+					width:100%;
+					height:$meal_top;
+					margin-bottom:14px;
+					border-radius:12px;
+					background-color:darken($color_meal,4%);
+					box-shadow:0px 8px 8px #ebebeb;
+					position:relative;
+					display:inline-block;
+					display:flex;
+					align-items:center;
+					justify-content:space-between;
+					overflow:hidden;
+					opacity:1;
+					z-index:1;
+					@include meal_add(nth($blocks_states,1));
+					@include meal_add(nth($blocks_states,2));
+					@include meal_add(nth($blocks_states,3));
+					&::after {
+						position:absolute;
+						top:0; bottom:0; left:0; right:0;
+						content:"";
+						opacity:0;
+						transition:opacity 250ms;
+						background-color:$color_meal;
+						color:$color_meal;
+						z-index:-1;
+					}
+					&__description {
+						display:flex;
+						flex-direction:column;
+						justify-content:space-between;
+						font-size:0.9em;
+						& p {
+							width:auto;
+							margin:0px;
+							margin-bottom:3%;
+							margin-left:3%;
+							overflow:hidden;
+							white-space:nowrap;
+							text-overflow:ellipsis;
+						}
+						height:100%;
+						width:100%;
+						@include computer {
+							width:80%;
+						}
+						&__title {
+							margin:0px;
+							margin-top:3%;
+							margin-left:3%;
+							width:auto;
+							overflow:hidden;
+							white-space:nowrap;
+							text-overflow:ellipsis;
+						}
+						&__price {
+							position:absolute;
+							right:24px;
+							bottom:9%;
+							font-weight:bold;
+							display:inline-block;
+							transform:translateX(0px);
+							transition:all 250ms ease-in-out;
+						}						
+					}
+					&__check
+					{
+						position:relative;
+						right:-#{$check_width};
+						height:$meal_top;
+						width:$check_width;
+						display:inline-block;
+						transform:translateX(0px);
+						transition:all 250ms ease-in-out;
+						background-color:map-get($id_graph_colors, tertiary);
+						@include flex_horizontal_center;
+						& .fas
+						{
+							color:$color_meal;
+							font-size:1.2em;
+							transform:rotate(180deg);
+							transition: all 500ms;
+						}
+					}
+				}
+				margin-bottom:40px;
+			}
+			$number:$number+1;
+		}
+		@include primary_button($color_meal);
+		&__button {
+			@include computer {
+				position:absolute;
+				bottom:-41px;
+				width:27%;
+				left:36.5%;
+			}
+		}
+	}
+}

@@ -1,0 +1,160 @@
+<!Doctype HTML>
+<html lang="fr">
+<head>
+    <meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width" />
+    <title>OH MY FOOD</title>
+    <link rel="stylesheet" href="/style/style.css"/>
+    <!-- Appel des fichiers pour les icônes -->
+    <link rel="stylesheet" href="/icons/css/all.min.css"/>
+    <link rel="stylesheet" href="/icons/css/v4-shims.min.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+            <img class="logo" src="./assets/images/logo/ohmyfood@2x.svg" alt="logo du site"/>
+    </header>
+
+    <!-- Loading -->
+    <div class="loading_page">
+        <img class="logo" src="./assets/images/logo/ohmyfood@2x.svg" alt="Logo Oh My Food"/>
+        <span class="spinner">
+            <i class="fa fa-spinner" aria-hidden="true"></i>
+        </span>
+    </div>
+
+    <main>
+        <!-- Localisation + Fonctionnement -->
+        <div id="localisation">
+            <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+            <p>Paris, Belleville</p>
+        </div>
+        <div id="page_top">
+            <div class="presentation">
+                <h1 class="presentation__title">Réservez le menu qui vous convient</h1>
+                <p>Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
+                <a href="#">
+                    <div class="presentation__button">
+                        <p class="__text">Explorer nos restaurants</p>
+                    </div>
+                </a>
+            </div>
+            <div class="functionment">
+                <h1 class="functionment__title">Fonctionnement</h1>
+                <nav class="functionment__step">
+                    <ul>
+                        <li class="functionment__step__1">
+                            <a href="#">
+                                <span class="number">1</span>
+                                <i class="fas fa-mobile-alt" aria-hidden="true"></i>
+                                <p>Choisissez un restaurant</p>
+                            </a>
+                        </li>
+                        <li class="functionment__step__2">
+                            <a href="#">
+                                <span class="number">2</span>
+                                <i class="fas fa-list" aria-hidden="true"></i>
+                                <p>Composez votre menu</p>
+                            </a>
+                        </li>
+                        <li class="functionment__step__3">
+                            <a href="#">
+                                <span class="number">3</span>
+                                <i class="fas fa-store" aria-hidden="true"></i>
+                                <p>Dégustez au restaurant</p>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <!-- Restaurantss -->
+
+		<section class="restaurants">
+			<h1 class="restaurants__title">Restaurants</h1>
+			<div class="restaurants__list">
+
+				<!-- La Palette Du Goût -->
+
+				<a href="./menus/la_palette_du_gout.html" class="restaurants__menu__1">
+					<span class="restaurants__menu__nouveau">Nouveau</span>
+					<div class="restaurants__menu__bottom">
+						<div class="restaurants__menu__description">
+							<h2 class="restaurants__menu__description__name">La Palette Du Goût</h2>
+							<p class="restaurants__menu__description__city">Ménilmontant</p>
+					    </div>
+						<span class="restaurants__menu__like">
+							<i class="far fa-heart" aria-hidden="true"></i>
+							<i class="fas fa-heart" aria-hidden="true"></i>
+						</span>
+					</div>
+				</a>
+
+				<!-- La Note Enchantée -->
+
+				<a href="./menus/la_note_enchantee.html" class="restaurants__menu__2">
+					<span class="restaurants__menu__nouveau">Nouveau</span>
+					<div class="restaurants__menu__bottom">
+						<div class="restaurants__menu__description">
+							<h2 class="restaurants__menu__description__name">La Note Enchantée</h2>
+							<p class="restaurants__menu__description__city">Charonne</p>
+						</div>
+						<span class="restaurants__menu__like">
+							<i class="far fa-heart" aria-hidden="true"></i>
+							<i class="fas fa-heart" aria-hidden="true"></i>
+						</span>
+					</div>
+				</a>
+
+				<!-- À La Française -->
+
+				<a href="./menus/a_la_francaise.html" class="restaurants__menu__3">
+					<div class="restaurants__menu__bottom">
+						<div class="restaurants__menu__description">
+							<h2 class="restaurants__menu__description__name">À La Française</h2>
+							<p class="restaurants__menu__description__city">Cité Rouge</p>
+						</div>
+						<span class="restaurants__menu__like">
+							<i class="far fa-heart" aria-hidden="true"></i>
+							<i class="fas fa-heart" aria-hidden="true"></i>
+						</span>
+					</div>
+				</a>
+				
+                <!-- Le Délice Des Sens -->
+				
+                <a href="./menus/le_delice_des_sens.html" class="restaurants__menu__4">
+					<div class="restaurants__menu__bottom">
+						<div class="restaurants__menu__description">
+							<h2 class="restaurants__menu__description__name">Le Délice Des Sens</h2>
+							<p class="restaurants__menu__description__city">Folie-Méricourt</p>
+						</div>
+						<span class="restaurants__menu__like">
+							<i class="far fa-heart" aria-hidden="true"></i>
+							<i class="fas fa-heart" aria-hidden="true"></i>
+						</span>
+					</div>
+				</a>
+			</div>
+		</section>
+    </main>
+    
+    <!-- Footer -->
+
+    <footer class="footer">
+        <h1 class="footer__title">ohmyfood</h1>
+        <nav class="footer__nav">
+            <ul>
+                <li><a href="#"><i class="fas fa-utensils" aria-hidden="true"></i>Proposer un restaurant</a></li>
+                <li><a href="#"><i class="fas fa-hands-helping" aria-hidden="true"></i>Devenir partenaire</a></li>
+                <li><a href="#">Mentions légales</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>

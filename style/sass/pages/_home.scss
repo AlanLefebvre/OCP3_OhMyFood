@@ -1,0 +1,101 @@
+#localisation {
+    width:100%; height: 42px;
+    position:relative;
+	@include flex_horizontal_center;
+    background-color: darken($color_meal, 8.1%);
+	font-size:1.4em;
+	font-weight:bold;
+	& span {
+		position:relative;
+		right:.6em;}
+}
+
+#page_top {
+	& .presentation {
+		@include automatic_container;
+		background-color:darken($color_meal, 2.6%) ;
+		text-align:center;
+		height:287px;
+		&__title {
+			@include second_title;
+			text-align:center;
+		}
+		& a {
+			color: $color_meal;
+			font-weight: bold;
+			text-decoration: none;
+		}
+		& p {
+			text-align:center;
+			font-size:1.2em;
+			text-decoration-color: $color_meal;
+		}
+		position:relative;
+		@include primary_button($color_meal);
+		@include tablets {
+			height:auto;
+			flex:1;
+		}
+	}
+
+	& .functionment {
+		@include automatic_container;
+		&__title {
+			@include second_title;
+		}
+		&__step {
+			& ul {
+				padding:0px;
+				display:flex;
+				flex-direction: column;
+				align-items:center;
+				align-content:space-between;
+			}
+			@include functionment_steps($steps_number);
+		}
+		@include tablets {
+			height:auto;
+			flex:1;
+		}
+	}
+
+	@include tablets {
+		display:flex;
+		justify-content:center;
+		align-items:stretch;
+		background-color:darken($color_meal, 1.6%);
+	}
+}
+
+.restaurants {
+	background-color:darken($color_meal, 3.6%);
+	&__list {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: center;
+	}
+	@include automatic_container();
+	&__title {
+		@include second_title();
+	}
+	& a {
+		height:251px;
+		max-width:600px;
+		width:100%;
+		display:inline-block;
+		position:relative;
+		margin :0 0px 18px 0px;
+		border-radius:15px;
+		overflow:hidden;
+		box-shadow:0px 6px 6px darken($color_meal, 28.6%);
+		@include tablets {
+			min-width:330px;
+			width: 48%;
+		}
+	}
+	&__menu {
+		@include home_page_restaurants($image_list);
+	}
+	
+}
