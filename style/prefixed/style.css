@@ -758,7 +758,7 @@ header .return {
   font-size: 1.2em;
 }
 .restaurants__menu__description__city {
-  margin: 5px 0px 0px 5px;
+  margin: 10px 0px 0px 5px;
 }
 .restaurants__menu__1 {
   background: url("../../assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg") no-repeat center/150%;
@@ -969,9 +969,9 @@ header .return {
   opacity: 1;
 }
 .page__center .menu__entrees__meal:focus .menu__entrees__meal__description__prix {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__entrees__meal:focus .menu__entrees__meal__description__title {
   width: 65%;
@@ -980,9 +980,9 @@ header .return {
   width: 65%;
 }
 .page__center .menu__entrees__meal:focus .menu__entrees__meal__check {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__entrees__meal:focus .menu__entrees__meal__check .fas {
   -webkit-transform: rotate(360deg);
@@ -999,9 +999,9 @@ header .return {
   opacity: 1;
 }
 .page__center .menu__entrees__meal:focus .menu__plats__meal__description__prix {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__entrees__meal:focus .menu__plats__meal__description__title {
   width: 65%;
@@ -1010,9 +1010,9 @@ header .return {
   width: 65%;
 }
 .page__center .menu__entrees__meal:focus .menu__plats__meal__check {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__entrees__meal:focus .menu__plats__meal__check .fas {
   -webkit-transform: rotate(360deg);
@@ -1029,9 +1029,9 @@ header .return {
   opacity: 1;
 }
 .page__center .menu__entrees__meal:focus .menu__desserts__meal__description__prix {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__entrees__meal:focus .menu__desserts__meal__description__title {
   width: 65%;
@@ -1040,9 +1040,9 @@ header .return {
   width: 65%;
 }
 .page__center .menu__entrees__meal:focus .menu__desserts__meal__check {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__entrees__meal:focus .menu__desserts__meal__check .fas {
   -webkit-transform: rotate(360deg);
@@ -1059,9 +1059,9 @@ header .return {
   opacity: 1;
 }
 .page__center .menu__entrees__meal:hover .menu__entrees__meal__description__prix {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__entrees__meal:hover .menu__entrees__meal__description__title {
   width: 65%;
@@ -1070,9 +1070,9 @@ header .return {
   width: 65%;
 }
 .page__center .menu__entrees__meal:hover .menu__entrees__meal__check {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__entrees__meal:hover .menu__entrees__meal__check .fas {
   -webkit-transform: rotate(360deg);
@@ -1089,9 +1089,9 @@ header .return {
   opacity: 1;
 }
 .page__center .menu__entrees__meal:hover .menu__plats__meal__description__prix {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__entrees__meal:hover .menu__plats__meal__description__title {
   width: 65%;
@@ -1100,9 +1100,9 @@ header .return {
   width: 65%;
 }
 .page__center .menu__entrees__meal:hover .menu__plats__meal__check {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__entrees__meal:hover .menu__plats__meal__check .fas {
   -webkit-transform: rotate(360deg);
@@ -1119,9 +1119,9 @@ header .return {
   opacity: 1;
 }
 .page__center .menu__entrees__meal:hover .menu__desserts__meal__description__prix {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__entrees__meal:hover .menu__desserts__meal__description__title {
   width: 65%;
@@ -1130,9 +1130,9 @@ header .return {
   width: 65%;
 }
 .page__center .menu__entrees__meal:hover .menu__desserts__meal__check {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__entrees__meal:hover .menu__desserts__meal__check .fas {
   -webkit-transform: rotate(360deg);
@@ -1149,9 +1149,9 @@ header .return {
   opacity: 1;
 }
 .page__center .menu__entrees__meal:active .menu__entrees__meal__description__prix {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__entrees__meal:active .menu__entrees__meal__description__title {
   width: 65%;
@@ -1160,9 +1160,9 @@ header .return {
   width: 65%;
 }
 .page__center .menu__entrees__meal:active .menu__entrees__meal__check {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__entrees__meal:active .menu__entrees__meal__check .fas {
   -webkit-transform: rotate(360deg);
@@ -1179,9 +1179,9 @@ header .return {
   opacity: 1;
 }
 .page__center .menu__entrees__meal:active .menu__plats__meal__description__prix {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__entrees__meal:active .menu__plats__meal__description__title {
   width: 65%;
@@ -1190,9 +1190,9 @@ header .return {
   width: 65%;
 }
 .page__center .menu__entrees__meal:active .menu__plats__meal__check {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__entrees__meal:active .menu__plats__meal__check .fas {
   -webkit-transform: rotate(360deg);
@@ -1209,9 +1209,9 @@ header .return {
   opacity: 1;
 }
 .page__center .menu__entrees__meal:active .menu__desserts__meal__description__prix {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__entrees__meal:active .menu__desserts__meal__description__title {
   width: 65%;
@@ -1220,9 +1220,9 @@ header .return {
   width: 65%;
 }
 .page__center .menu__entrees__meal:active .menu__desserts__meal__check {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__entrees__meal:active .menu__desserts__meal__check .fas {
   -webkit-transform: rotate(360deg);
@@ -1299,9 +1299,9 @@ header .return {
 }
 .page__center .menu__entrees__meal__check {
   position: relative;
-  right: -60px;
+  right: -100px;
   height: 70px;
-  width: 60px;
+  width: 100px;
   display: inline-block;
   -webkit-transform: translateX(0px);
       -ms-transform: translateX(0px);
@@ -1393,9 +1393,9 @@ header .return {
   opacity: 1;
 }
 .page__center .menu__plats__meal:focus .menu__entrees__meal__description__prix {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__plats__meal:focus .menu__entrees__meal__description__title {
   width: 65%;
@@ -1404,9 +1404,9 @@ header .return {
   width: 65%;
 }
 .page__center .menu__plats__meal:focus .menu__entrees__meal__check {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__plats__meal:focus .menu__entrees__meal__check .fas {
   -webkit-transform: rotate(360deg);
@@ -1422,10 +1422,10 @@ header .return {
 .page__center .menu__plats__meal:focus .menu__plats__meal::after {
   opacity: 1;
 }
-.page__center .menu__plats__meal:focus .menu__plats__meal__description__prix {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+.page__center .menu__plats__meal:focus .menu__plats__meal__description__price {
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__plats__meal:focus .menu__plats__meal__description__title {
   width: 65%;
@@ -1434,9 +1434,9 @@ header .return {
   width: 65%;
 }
 .page__center .menu__plats__meal:focus .menu__plats__meal__check {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__plats__meal:focus .menu__plats__meal__check .fas {
   -webkit-transform: rotate(360deg);
@@ -1452,10 +1452,10 @@ header .return {
 .page__center .menu__plats__meal:focus .menu__desserts__meal::after {
   opacity: 1;
 }
-.page__center .menu__plats__meal:focus .menu__desserts__meal__description__prix {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+.page__center .menu__plats__meal:focus .menu__desserts__meal__description__price {
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__plats__meal:focus .menu__desserts__meal__description__title {
   width: 65%;
@@ -1464,9 +1464,9 @@ header .return {
   width: 65%;
 }
 .page__center .menu__plats__meal:focus .menu__desserts__meal__check {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__plats__meal:focus .menu__desserts__meal__check .fas {
   -webkit-transform: rotate(360deg);
@@ -1482,10 +1482,10 @@ header .return {
 .page__center .menu__plats__meal:hover .menu__entrees__meal::after {
   opacity: 1;
 }
-.page__center .menu__plats__meal:hover .menu__entrees__meal__description__prix {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+.page__center .menu__plats__meal:hover .menu__entrees__meal__description__price {
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__plats__meal:hover .menu__entrees__meal__description__title {
   width: 65%;
@@ -1494,9 +1494,9 @@ header .return {
   width: 65%;
 }
 .page__center .menu__plats__meal:hover .menu__entrees__meal__check {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__plats__meal:hover .menu__entrees__meal__check .fas {
   -webkit-transform: rotate(360deg);
@@ -1512,10 +1512,10 @@ header .return {
 .page__center .menu__plats__meal:hover .menu__plats__meal::after {
   opacity: 1;
 }
-.page__center .menu__plats__meal:hover .menu__plats__meal__description__prix {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+.page__center .menu__plats__meal:hover .menu__plats__meal__description__price {
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__plats__meal:hover .menu__plats__meal__description__title {
   width: 65%;
@@ -1524,9 +1524,9 @@ header .return {
   width: 65%;
 }
 .page__center .menu__plats__meal:hover .menu__plats__meal__check {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__plats__meal:hover .menu__plats__meal__check .fas {
   -webkit-transform: rotate(360deg);
@@ -1542,10 +1542,10 @@ header .return {
 .page__center .menu__plats__meal:hover .menu__desserts__meal::after {
   opacity: 1;
 }
-.page__center .menu__plats__meal:hover .menu__desserts__meal__description__prix {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+.page__center .menu__plats__meal:hover .menu__desserts__meal__description__price {
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__plats__meal:hover .menu__desserts__meal__description__title {
   width: 65%;
@@ -1554,9 +1554,9 @@ header .return {
   width: 65%;
 }
 .page__center .menu__plats__meal:hover .menu__desserts__meal__check {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__plats__meal:hover .menu__desserts__meal__check .fas {
   -webkit-transform: rotate(360deg);
@@ -1572,10 +1572,10 @@ header .return {
 .page__center .menu__plats__meal:active .menu__entrees__meal::after {
   opacity: 1;
 }
-.page__center .menu__plats__meal:active .menu__entrees__meal__description__prix {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+.page__center .menu__plats__meal:active .menu__entrees__meal__description__price {
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__plats__meal:active .menu__entrees__meal__description__title {
   width: 65%;
@@ -1584,9 +1584,9 @@ header .return {
   width: 65%;
 }
 .page__center .menu__plats__meal:active .menu__entrees__meal__check {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__plats__meal:active .menu__entrees__meal__check .fas {
   -webkit-transform: rotate(360deg);
@@ -1602,10 +1602,10 @@ header .return {
 .page__center .menu__plats__meal:active .menu__plats__meal::after {
   opacity: 1;
 }
-.page__center .menu__plats__meal:active .menu__plats__meal__description__prix {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+.page__center .menu__plats__meal:active .menu__plats__meal__description__price {
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__plats__meal:active .menu__plats__meal__description__title {
   width: 65%;
@@ -1614,9 +1614,9 @@ header .return {
   width: 65%;
 }
 .page__center .menu__plats__meal:active .menu__plats__meal__check {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__plats__meal:active .menu__plats__meal__check .fas {
   -webkit-transform: rotate(360deg);
@@ -1632,10 +1632,10 @@ header .return {
 .page__center .menu__plats__meal:active .menu__desserts__meal::after {
   opacity: 1;
 }
-.page__center .menu__plats__meal:active .menu__desserts__meal__description__prix {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+.page__center .menu__plats__meal:active .menu__desserts__meal__description__price {
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__plats__meal:active .menu__desserts__meal__description__title {
   width: 65%;
@@ -1644,9 +1644,9 @@ header .return {
   width: 65%;
 }
 .page__center .menu__plats__meal:active .menu__desserts__meal__check {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__plats__meal:active .menu__desserts__meal__check .fas {
   -webkit-transform: rotate(360deg);
@@ -1723,9 +1723,9 @@ header .return {
 }
 .page__center .menu__plats__meal__check {
   position: relative;
-  right: -60px;
+  right: -100px;
   height: 70px;
-  width: 60px;
+  width: 100px;
   display: inline-block;
   -webkit-transform: translateX(0px);
       -ms-transform: translateX(0px);
@@ -1816,10 +1816,10 @@ header .return {
 .page__center .menu__desserts__meal:focus .menu__entrees__meal::after {
   opacity: 1;
 }
-.page__center .menu__desserts__meal:focus .menu__entrees__meal__description__prix {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+.page__center .menu__desserts__meal:focus .menu__entrees__meal__description__price {
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__desserts__meal:focus .menu__entrees__meal__description__title {
   width: 65%;
@@ -1828,9 +1828,9 @@ header .return {
   width: 65%;
 }
 .page__center .menu__desserts__meal:focus .menu__entrees__meal__check {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__desserts__meal:focus .menu__entrees__meal__check .fas {
   -webkit-transform: rotate(360deg);
@@ -1846,10 +1846,10 @@ header .return {
 .page__center .menu__desserts__meal:focus .menu__plats__meal::after {
   opacity: 1;
 }
-.page__center .menu__desserts__meal:focus .menu__plats__meal__description__prix {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+.page__center .menu__desserts__meal:focus .menu__plats__meal__description__price {
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__desserts__meal:focus .menu__plats__meal__description__title {
   width: 65%;
@@ -1858,9 +1858,9 @@ header .return {
   width: 65%;
 }
 .page__center .menu__desserts__meal:focus .menu__plats__meal__check {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__desserts__meal:focus .menu__plats__meal__check .fas {
   -webkit-transform: rotate(360deg);
@@ -1876,10 +1876,10 @@ header .return {
 .page__center .menu__desserts__meal:focus .menu__desserts__meal::after {
   opacity: 1;
 }
-.page__center .menu__desserts__meal:focus .menu__desserts__meal__description__prix {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+.page__center .menu__desserts__meal:focus .menu__desserts__meal__description__price {
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__desserts__meal:focus .menu__desserts__meal__description__title {
   width: 65%;
@@ -1888,9 +1888,9 @@ header .return {
   width: 65%;
 }
 .page__center .menu__desserts__meal:focus .menu__desserts__meal__check {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__desserts__meal:focus .menu__desserts__meal__check .fas {
   -webkit-transform: rotate(360deg);
@@ -1906,10 +1906,10 @@ header .return {
 .page__center .menu__desserts__meal:hover .menu__entrees__meal::after {
   opacity: 1;
 }
-.page__center .menu__desserts__meal:hover .menu__entrees__meal__description__prix {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+.page__center .menu__desserts__meal:hover .menu__entrees__meal__description__price {
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__desserts__meal:hover .menu__entrees__meal__description__title {
   width: 65%;
@@ -1918,9 +1918,9 @@ header .return {
   width: 65%;
 }
 .page__center .menu__desserts__meal:hover .menu__entrees__meal__check {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__desserts__meal:hover .menu__entrees__meal__check .fas {
   -webkit-transform: rotate(360deg);
@@ -1936,10 +1936,10 @@ header .return {
 .page__center .menu__desserts__meal:hover .menu__plats__meal::after {
   opacity: 1;
 }
-.page__center .menu__desserts__meal:hover .menu__plats__meal__description__prix {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+.page__center .menu__desserts__meal:hover .menu__plats__meal__description__price {
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__desserts__meal:hover .menu__plats__meal__description__title {
   width: 65%;
@@ -1948,9 +1948,9 @@ header .return {
   width: 65%;
 }
 .page__center .menu__desserts__meal:hover .menu__plats__meal__check {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__desserts__meal:hover .menu__plats__meal__check .fas {
   -webkit-transform: rotate(360deg);
@@ -1966,10 +1966,10 @@ header .return {
 .page__center .menu__desserts__meal:hover .menu__desserts__meal::after {
   opacity: 1;
 }
-.page__center .menu__desserts__meal:hover .menu__desserts__meal__description__prix {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+.page__center .menu__desserts__meal:hover .menu__desserts__meal__description__price {
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__desserts__meal:hover .menu__desserts__meal__description__title {
   width: 65%;
@@ -1978,9 +1978,9 @@ header .return {
   width: 65%;
 }
 .page__center .menu__desserts__meal:hover .menu__desserts__meal__check {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__desserts__meal:hover .menu__desserts__meal__check .fas {
   -webkit-transform: rotate(360deg);
@@ -1996,10 +1996,10 @@ header .return {
 .page__center .menu__desserts__meal:active .menu__entrees__meal::after {
   opacity: 1;
 }
-.page__center .menu__desserts__meal:active .menu__entrees__meal__description__prix {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+.page__center .menu__desserts__meal:active .menu__entrees__meal__description__price {
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__desserts__meal:active .menu__entrees__meal__description__title {
   width: 65%;
@@ -2008,9 +2008,9 @@ header .return {
   width: 65%;
 }
 .page__center .menu__desserts__meal:active .menu__entrees__meal__check {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__desserts__meal:active .menu__entrees__meal__check .fas {
   -webkit-transform: rotate(360deg);
@@ -2026,10 +2026,10 @@ header .return {
 .page__center .menu__desserts__meal:active .menu__plats__meal::after {
   opacity: 1;
 }
-.page__center .menu__desserts__meal:active .menu__plats__meal__description__prix {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+.page__center .menu__desserts__meal:active .menu__plats__meal__description__price {
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__desserts__meal:active .menu__plats__meal__description__title {
   width: 65%;
@@ -2038,9 +2038,9 @@ header .return {
   width: 65%;
 }
 .page__center .menu__desserts__meal:active .menu__plats__meal__check {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__desserts__meal:active .menu__plats__meal__check .fas {
   -webkit-transform: rotate(360deg);
@@ -2056,10 +2056,10 @@ header .return {
 .page__center .menu__desserts__meal:active .menu__desserts__meal::after {
   opacity: 1;
 }
-.page__center .menu__desserts__meal:active .menu__desserts__meal__description__prix {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+.page__center .menu__desserts__meal:active .menu__desserts__meal__description__price {
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__desserts__meal:active .menu__desserts__meal__description__title {
   width: 65%;
@@ -2068,9 +2068,9 @@ header .return {
   width: 65%;
 }
 .page__center .menu__desserts__meal:active .menu__desserts__meal__check {
-  -webkit-transform: translateX(-60px);
-      -ms-transform: translateX(-60px);
-          transform: translateX(-60px);
+  -webkit-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+          transform: translateX(-100px);
 }
 .page__center .menu__desserts__meal:active .menu__desserts__meal__check .fas {
   -webkit-transform: rotate(360deg);
@@ -2147,9 +2147,9 @@ header .return {
 }
 .page__center .menu__desserts__meal__check {
   position: relative;
-  right: -60px;
+  right: -100px;
   height: 70px;
-  width: 60px;
+  width: 100px;
   display: inline-block;
   -webkit-transform: translateX(0px);
       -ms-transform: translateX(0px);
