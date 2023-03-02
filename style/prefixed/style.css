@@ -290,6 +290,11 @@ header .return {
   border-right-style: hidden;
   border-left-style: hidden;
   border-bottom-style: hidden;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 15px;
 }
 
 #localisation .localisation__form:focus, #localisation .localisation__form__input:focus {
