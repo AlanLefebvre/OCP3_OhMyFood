@@ -284,6 +284,8 @@ header .return {
   position: relative;
   right: 0.6em;
 }
+#localisation .localisation__form, #localisation .localisation__form__input {
+  background-color: transparent;
 
 #page_top .presentation {
   padding: 5%;
