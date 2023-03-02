@@ -286,6 +286,7 @@ header .return {
 }
 #localisation .localisation__form, #localisation .localisation__form__input {
   background-color: transparent;
+}
 
 #page_top .presentation {
   padding: 5%;
