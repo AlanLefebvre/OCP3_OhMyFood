@@ -286,6 +286,14 @@ header .return {
 }
 #localisation .localisation__form, #localisation .localisation__form__input {
   background-color: transparent;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+}
+
+#localisation .localisation__form:focus, #localisation .localisation__form__input:focus {
+  outline: none;
 }
 
 #page_top .presentation {
